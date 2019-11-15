@@ -20,36 +20,56 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--Slick CSS-->
     <link rel="stylesheet" type="text/css" href="./assets/css/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/slick/slick-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/slick/slick-theme.css" /> -->
 
 </head>
 
 <body>
     <!--Top Header-->
     <div class="headerPart">
-        <div class="logo">
+        <div class="headContainer container">
 
-            <a href="index.html"><img src="#" alt=""></a>
+            <div class="row">
+                <div class="col-md-4">
+                    <!--logo-->
+                    <div class="logo">
+
+                        <a href="index.html">
+                            <i class="fas fa-shapes"></i>
+                            <h3>Curly Kids Daycare</h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <!--Header Contact-->
+                    <div class="address">
+
+                        <ul>
+
+                            <li style="background: url(images/liBg1.png) no-repeat;"><strong>Visit our
+                                    Location</strong><br>123
+                                Anywhere St Miami FL</li>
+
+                            <li style="background: url(images/liBg2.png) no-repeat;"><strong>Give us a
+                                    Call</strong><br>555-555-5555
+                            </li>
+
+                            <li style="background: url(images/liBg3.png) no-repeat;"><strong>Send us a
+                                    Message</strong><br><a href="mailto:info@abcdaycare.com ">info@abcdaycare.com</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
-        <!--Header Contact-->
-        <div class="address">
 
-            <ul>
 
-                <li style="background: url(images/liBg1.png) no-repeat;"><strong>Visit our Location</strong><br>123
-                    Anywhere St Miami FL</li>
-
-                <li style="background: url(images/liBg2.png) no-repeat;"><strong>Give us a Call</strong><br>555-555-5555
-                </li>
-
-                <li style="background: url(images/liBg3.png) no-repeat;"><strong>Send us a Message</strong><br><a
-                        href="mailto:info@abcdaycare.com ">info@abcdaycare.com</a></li>
-
-            </ul>
-
-        </div>
 
         <!--Navbar-->
         <div class="nav" id="navigation">
@@ -75,7 +95,7 @@
     <div class="bannerPart">
 
 
-        <ul class="rslides autoplay">
+        <ul class="rslides">
 
             <!--Slide 1-->
             <li>
@@ -161,69 +181,47 @@
 
             </li>
 
-            <!--Slide 4-->
-            <li>
-
-                <div class="sliderLst" style="background-image: url(./assets/img/slide4.jpg);">
-
-                    <div class="sliderLstTxt">
-
-                        <div class="container">
-
-                            <div class="sliderListTxtShadow">
-
-                                <h1>Cultivating a lifelong <br>
-
-                                    love of learning</h1>
-
-                                <a class="btn" href="#programs" style="background: #e8485b">Our Programs</a>
-                                <a class="btn" href="#contact" style="background: #398790">Inquire Now</a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </li>
-
         </ul>
 
     </div>
 
     <!--Social Media Links-->
-    <div class="socialMedia">
-        <ul>
-            <li style="background: #3b5998">
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li style="background: #dd4b39">
-                <a href="#">
-                    <i class="fab fa-google-plus-g"></i>
-                </a>
-            </li>
-            <li style="background: #3f729b">
-                <a href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li style="background: #dc0000">
-                <a href="#">
-                    <i class="fab fa-yelp"></i>
-                </a>
-            </li>
-        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="socialMedia">
+                <ul>
+                    <li style="background: #3b5998">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li style="background: #dd4b39">
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li style="background: #3f729b">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li style="background: #dc0000">
+                        <a href="#">
+                            <i class="fab fa-yelp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
+
 
     <!--Programs-->
 
     <section id="programs">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-5">
                     <div class="block">
                         <img src="./assets/img/block1.png">
@@ -281,7 +279,8 @@
             <div class="row">
                 <p>
                     <strong>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis blanditiis eaque reprehenderit
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis blanditiis eaque
+                        reprehenderit
                         animi velit aliquam.
                     </strong>
                 </p>
@@ -294,9 +293,9 @@
                 <a href="#" class="btn">Enroll Now!</a>
             </div>
         </div>
-        
-       
-       
+
+
+
     </section>
 
     <section id="photoGallery">
