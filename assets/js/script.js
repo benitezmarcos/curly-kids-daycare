@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    //Slick Slider
     $('.rslides').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -11,4 +12,16 @@ $(document).ready(function () {
         prevArrow: false,
         nextArrow: false
     });
+
+    //Magnific Popup
+    $('.parent-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+    
+        gallery:{
+          enabled:true
+        }
+        // other options
+      });
+
 });
