@@ -8,6 +8,17 @@
      box-sizing: border-box;
  }
 
+ @font-face {
+    font-family: "Marline Free";
+    src: url("./fonts/marline_free-webfont.woff");
+    
+    }
+
+    @font-face{
+        font-family: "Vagron";
+        src: url("./fonts/vagron-webfont.woff");
+    }
+
  a {
      text-decoration: none !important;
  }
@@ -50,14 +61,23 @@
      z-index: 99;
  }
 
- .headerPart .logo {
+ /* .headerPart .logo {
      width: 25%;
      height: auto;
      background: #edc647;
      display: block;
      text-align: center;
-     padding: 49px 0;
+     padding: 10px 0;
      float: left;
+     color:#fff !important;
+ } */
+
+ .headerPart .logo h1{
+    font-family: "Marline Free";
+    font-size: 72px;
+ }
+ .headerPart .logo h3{
+    font-family: "Vagron";
  }
 
  .headerPart .address {
@@ -65,7 +85,7 @@
      height: auto;
      background: #fff;
      float: left;
-     padding: 26px 28px;
+     padding: 56px 28px;
  }
 
  .headerPart .address li {
@@ -110,8 +130,9 @@
      background: #edc647;
      display: block;
      text-align: center;
-     padding: 49px 0;
+     padding: 19px 0;
      float: left;
+     color:#fff !important
  }
 
  .headerPart .nav {
@@ -129,7 +150,7 @@
  }
 
  .headerPart .nav li a {
-     font: 18px/22px 'VAGRoundedBT', sans-serif;
+     font: 18px/22px 'Vagron';
      color: #fff;
      display: block;
      text-align: center;
@@ -222,9 +243,32 @@
 
  #programs .block {
      text-align: center;
+     padding-bottom: 20px;
  }
 
+ #programs .block .programHeader1{
+    color: #e8485b;
+    /* background-color: #e8485b; */
+}
+
+#programs .block .programHeader2{
+    color: #edc647;
+    /* background-color: #e8485b; */
+}
+
+#programs .block .programHeader3{
+    color: #76acc8;
+    /* background-color: #e8485b; */
+}
+
+#programs .block .programHeader4{
+    color: #70c582;
+    /* background-color: #e8485b; */
+}
+
  #programs .block h1 {
+     font-family: "Marline Free";
+     font-size: 72px;
      color: #3b4446;
      padding: 20px 0;
  }
@@ -255,13 +299,38 @@
      text-align: center;
  }
 
+ #aboutUs h3{
+     font-family: "Marline Free";
+     font-size: 68px;
+     color: #398790;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ #aboutUs .btn{
+    width: 145px;
+    height: 45px;
+    text-align: center;
+    display: inline-block;
+    font: 700 18px/20px 'Open Sans', sans-serif;
+    color: #fff;
+    background: #70c582;
+    padding: 12px 0;
+    margin: 25px 0;
+    border-radius: 3px;
+ }
+
+ #aboutUs .btn:hover{
+    background: #398790;
+ }
+
  #photoGallery {
      width: 100%;
      float: left;
      height: auto;
      background: #fff;
      position: relative;
-     /* padding: 10px 0; */
+     padding: 10px 0;
      text-align: center;
  }
 
@@ -289,3 +358,10 @@
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02d8fb', endColorstr='#e4dd11', GradientType=1);
      /* IE6-9*/
  }
+
+ #contact h3{
+    font-family: "Marline Free";
+    font-size: 68px;
+    color: #e8485b;
+    padding-top: 10px;
+}
